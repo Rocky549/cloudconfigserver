@@ -1,0 +1,17 @@
+server:
+  port: 8991
+spring:
+  datasource:
+    driver-class-name: 
+    uri:
+    username: 
+    password: 
+  jpa:
+    show-sql: false
+    hibernate:
+      dialect: org,hibernate.dialect.SQLServer2012Dialect
+      ddl-auto: 
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      
+ 
